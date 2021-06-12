@@ -37,9 +37,9 @@ class Output(Canvas):
         self.create_text(OFFSET_X, DIMEN_COORDPL + OFFSET_Y + 60, text = res)
 
         self.create_line(OFFSET_X, OFFSET_Y,
-                             OFFSET_X,OFFSET_Y + DIMEN_COORDPL, width=2)
+                        OFFSET_X,OFFSET_Y + DIMEN_COORDPL, width=2)
         self.create_line(OFFSET_X, OFFSET_Y + DIMEN_COORDPL,
-                             OFFSET_X + DIMEN_COORDPL + STEP_X, OFFSET_Y + DIMEN_COORDPL, width=2)
+                        OFFSET_X + DIMEN_COORDPL + STEP_X, OFFSET_Y + DIMEN_COORDPL, width=2)
         
         MAXVALUE_Y = max(prob.values())
         #y / Y * DIMEN_COORDPL
