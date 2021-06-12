@@ -1,4 +1,3 @@
-from gui import *
 from math import sqrt
 from random import shuffle
 
